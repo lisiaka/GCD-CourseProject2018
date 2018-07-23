@@ -33,7 +33,7 @@ output: html_document
  
  Function write.table() is being used to create a file with the final dataset.
  
- The last step - listing all the column names and writing the data to the code_book.md
+ The last step - listing all the column names and writing the data to the CodeBook.md
  
  
  
