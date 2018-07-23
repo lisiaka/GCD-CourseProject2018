@@ -1,19 +1,20 @@
 ---
 title: "README.md"
-author: "Maria Ruchko"
-date: "August 22, 2015"
+author: "Maria Palmer"
+date: "July 22, 2018"
 output: html_document
 ---
  
- The test and training datasets were first loaded into R using read.table() function. 
- Then all the corresponding datasets for test and training data were combined using function rbind(). We received 3 variables: 
+ Two datasets (test and training) were loaded into R with read.table() function. 
+ Then all the corresponding datasets for test and training data were combined using function rbind(). 
+ 3 variables were produced: 
  * combineddata - contains the the data with the Subject Identifier, 
  * combineddata1 - contains the data for 561 fetures, 
  * combineddata1_labels - contains the data with activity labels.
  
  Each combined dataset contains 10299 rows which represents data for number of observations for 30 subjects and 6 different activities.
  
- In the next step we are merging 3 datasets with the cbind() function and receive one common data frame which contains all the measurements and dimensions.
+ In the next step we merged 3 datasets with the cbind() function and receive one common data frame which contains all the measurements and dimensions.
  
  In the following steps we select relevant data from the conbined dataset. 
  By relevant data we mean features which contain word "mean" or "std" in the description.
@@ -32,7 +33,7 @@ output: html_document
  
  Function write.table() is being used to create a file with the final dataset.
  
- The last step - listing all the column names and writing the data to the code_book.txt
+ The last step - listing all the column names and writing the data to the code_book.md
  
  
  
